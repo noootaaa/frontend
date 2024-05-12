@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nooota/pages/onboarding": ["libs/pages/onboarding/src/index.ts"],
+      "@nooota/contracts": ["libs/shared/contracts/src/index.ts"],
+      "@nooota/domains/organization": [
+        "libs/domains/organization/src/index.ts"
+      ],
+      "@nooota/domains/user": ["libs/domains/user/src/index.ts"],
+      "@nooota/pages/home": ["libs/pages/home/src/index.ts"],
+      "@nooota/pages/layout": ["libs/pages/layout/src/index.ts"],
+      "@nooota/state/store": ["libs/state/store/src/index.ts"],
+      "@nooota/ui": ["libs/shared/ui/src/index.ts"],
+      "@nooota/utils": ["libs/shared/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
